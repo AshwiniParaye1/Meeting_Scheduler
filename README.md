@@ -13,24 +13,18 @@ Follow the steps below to set up and run the React app locally:
 
 Clone this repository to your local machine using the following command:
 
-bash
-Copy code
+
 git clone [https://github.com/AshwiniParaye1/Meeting_Scheduler.git](https://github.com/AshwiniParaye1/Meeting_Scheduler)
+
 Navigate to the project directory:
-
-
-Copy code
 cd react-app
+
 Install the dependencies:
-
-
-Copy code
 npm install
+
 Start the development server:
-
-
-Copy code
 npm start
+
 This command will start the application and open it in your default web browser. 
 If the browser does not open automatically, you can access the app at http://localhost:3000.
 
