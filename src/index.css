@@ -1,3 +1,42 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+.meeting-scheduler {
+  margin-top: 40px;
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 500px;
+}
+
+.meeting-form .form-field {
+  margin-bottom: 20px;
+}
+
+.meeting-form label {
+  margin-bottom: 8px;
+}
+
+.meeting-form input[type="number"],
+.meeting-form input[type="text"],
+.meeting-form input[type="time"] {
+  width: 100%;
+}
+
+.meeting-schedule {
+  margin-top: 20px;
+}
+
+.room-schedule {
+  margin-right: 20px;
+}
+
+.room-schedule h4 {
+  margin-bottom: 8px;
+}
+
+.room-schedule p {
+  margin-bottom: 4px;
+}
