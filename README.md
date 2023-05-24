@@ -1,5 +1,5 @@
 # Meeting_Scheduler
-# React App
+## React App
 This repository contains a basic React application that serves as a starting point for building web applications using React. It includes essential files and configurations to help you get up and running quickly.
 
 # Prerequisites
@@ -18,17 +18,17 @@ Copy code
 git clone [https://github.com/AshwiniParaye1/Meeting_Scheduler.git](https://github.com/AshwiniParaye1/Meeting_Scheduler)
 Navigate to the project directory:
 
-bash
+
 Copy code
 cd react-app
 Install the dependencies:
 
-bash
+
 Copy code
 npm install
 Start the development server:
 
-bash
+
 Copy code
 npm start
 This command will start the application and open it in your default web browser. 
