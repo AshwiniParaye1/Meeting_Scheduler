@@ -29,8 +29,8 @@ const MeetingScheduler = () => {
 
   // Event handler for adding a new meeting
   const handleAddMeeting = () => {
-    // Validation checks for input fields
     if (
+      // Validation checks for input fields
       newMeeting.meeting.trim() === "" ||
       newMeeting.startTime.trim() === "" ||
       newMeeting.endTime.trim() === ""
@@ -38,7 +38,7 @@ const MeetingScheduler = () => {
       toast.error("Please enter all meeting details.");
       return;
     }
-
+    //create two Date objects
     const startTime = new Date(`2000/01/01 ${newMeeting.startTime}`);
     const endTime = new Date(`2000/01/01 ${newMeeting.endTime}`);
 
@@ -75,7 +75,7 @@ const MeetingScheduler = () => {
       return;
     }
 
-    // Add the new meeting to the list of meetings
+    // Add the new meeting to the list of meetings if all checks pass
     setMeetings([...meetings, newMeeting]);
     setNewMeeting({
       meeting: "",
@@ -94,7 +94,7 @@ const MeetingScheduler = () => {
       return timeA - timeB;
     });
 
-    // Initialize an array of rooms with empty arrays
+    // Initialize an array of rooms with empty arrays with length equal to numrooms
     const rooms = Array.from({ length: numRooms }, () => []);
 
     sortedMeetings.forEach((meeting) => {
@@ -194,7 +194,7 @@ const MeetingScheduler = () => {
     setMeetings(parsedMeetings);
   });
 
-  console.log(scheduledMeetings);
+  // console.log(scheduledMeetings);
 
   return (
     <div className="flex justify-center items-center h-scree mt-5">
