@@ -16,17 +16,16 @@ Clone this repository to your local machine using the following command:
 
 git clone [https://github.com/AshwiniParaye1/Meeting_Scheduler.git](https://github.com/AshwiniParaye1/Meeting_Scheduler)
 
-Navigate to the project directory:
-cd react-app
+
 
 Install the dependencies:
 npm install
 
 Start the development server:
-npm start
+npm run dev or yarn dev
 
 This command will start the application and open it in your default web browser. 
-If the browser does not open automatically, you can access the app at http://localhost:3000.
+If the browser does not open automatically, you can access the app at http://localhost:5173.
 
 # Additional Information
 For more information on how to configure and customize a React app, refer to the official React documentation: https://reactjs.org.
