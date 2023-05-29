@@ -30,6 +30,6 @@ If the browser does not open automatically, you can access the app at http://loc
 # Additional Information
 For more information on how to configure and customize a React app, refer to the official React documentation: https://reactjs.org.
 
-If you encounter any issues or have questions, please open an issue on this repository or contact your-email@example.com.
+If you encounter any issues or have questions, please open an issue on this repository or contact ashwiniparaye1@gmail.com.
 
 Happy coding!
